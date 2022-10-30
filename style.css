@@ -1,0 +1,236 @@
+.primerapagina{
+    background: url(./images/Screenshot_1.png)no-repeat center center/cover;
+    width:100%;
+    height: 530px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex; 
+}
+
+.izquierda{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.derecha{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    }
+
+.derecha>img{
+    width: 50%;
+    height: 260px;
+    border-radius: 5px;
+    }
+   
+.izquierda p{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 17px;
+}
+
+.segundapagina{
+    background-color: rgb(5, 41, 98);
+    width:100%;
+    height: 500px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex; 
+}
+
+.derecha2{
+    background: url(./images/Screenshot_7.png)no-repeat center center/cover;
+    width:50%;
+}
+
+.derecha2>img{
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex; 
+}
+
+.izqui2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.titu{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 35px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izqui2>p{
+    font-family: "Open Sans", Sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    text-align: center;
+
+}
+
+.tercerapagina{
+    background-color: rgb(5, 41, 98);
+    color: aliceblue;
+    font-family: "Open Sans", Sans-serif;
+    width:100%;
+    height: 500px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex; 
+}
+
+.uno{
+    margin: 25px 150px 200px 80px;
+    width: 400px;
+    height: 450px;
+    background: url(./images/Screenshot_8.png)no-repeat center center/cover;
+}
+
+.dos{
+    width: 500px;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 91, 118);
+    color: aliceblue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 40px;
+    margin-top: 25px;
+
+}
+
+.uno>h1{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 160px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+.label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    border-radius: 16px;
+}
+
+.input,
+.label {
+    margin: 10px;
+    border-radius: 16px;
+}
+
+.titulologo{
+    font-size: 40px;
+    padding-top: px;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.navegacion {
+    position: sticky;
+    top: -1px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff64;
+    align-items: center;
+    height: 50px;
+}
+
+.navegacion a {
+    color: black
+}
+
+.navegacion img {
+    width: 150px;
+    margin-left: 40px;
+
+}
+
+.navegacion nav ul {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 40px;
+}
+
+.navegacion nav ul li {
+    margin-right: 30px;
+    display: flex;
+    width: 100px;
+    flex-wrap: nowrap;
+}
+
+.inicio {
+    display: flex;
+    justify-content: flex-end;
+ }
+
+.navegacion nav ul li a {
+    font-size: 20px;
+    height: 30px;
+}
+
+.navegacion nav ul li a:hover {
+    color: black;
+    border-bottom: .3rem solid black;
+   
+}
+
+footer{
+    background: url(./images/Screenshot_9.png)no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dd{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.oo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oo>p {
+    font-size: 18px;
+}
